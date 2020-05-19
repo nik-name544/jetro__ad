@@ -336,12 +336,8 @@ a {
 .footer__item {
     color: #fff;
     font-size: 12px;
-    /* position: absolute; */
     font-family: "HelveticaNeue";
     left: 35px;
-    /* right: 600px; */
-    /* display: flex;
-    flex-wrap: wrap; */
 }
 
 .footer__item-about {
