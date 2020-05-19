@@ -10,7 +10,9 @@ html {
 
 @font-face {
     font-family: "Bebas";
-    src: url("../fonts/Bebas.woff2") format("woff2"), url("../fonts/Bebas.woff") format("woff"), url("../fonts/Bebas.ttf") format("truetype");
+    src: url("../fonts/Bebas.woff2") format("woff2"), 
+    url("../fonts/Bebas.woff") format("woff"), 
+    url("../fonts/Bebas.ttf") format("truetype");
     font-weight: normal;
 }
 
@@ -39,6 +41,7 @@ a {
 .header {
     background-color: #fefefe;
     height: 55px;
+    margin: 7px;
 }
 
 .header__inner {
@@ -109,7 +112,7 @@ a {
 }
 
 .slider::after {
-    top: 55px;
+    top: 69px;
 }
 
 .slider__item {
@@ -182,11 +185,12 @@ a {
 .info__title {
     font-family: "Bebas";
     color: #e8663c;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 19px;
+    line-height: 30px;
     position: relative;
     bottom: 5px;
     padding-left: 60px;
+    padding-right: 19px;
 }
 
 .info__title::before {
@@ -226,11 +230,11 @@ a {
     color: #414141;
     font-size: 12px;
     line-height: 18px;
-    padding: 25px 20px 0 0;
+    padding: 25px 45px 0 0;
 }
 
 .info__btn-link {
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #e8663c;
     font-family: "Bebas";
     text-transform: uppercase;
@@ -353,6 +357,7 @@ a {
 
 .footer__item-twitter {
     width: 215px;
+    margin-left: -20px;
 }
 
 .footer__items-twitter {
