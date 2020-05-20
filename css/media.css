@@ -9,6 +9,18 @@
     .slider__item-box {
         width: 35.5vw;
     }
+
+    .footer__item--twitter {
+        width: 21vw;
+    }
+
+    .footer__item--about {
+        width: 27vw;
+    }
+
+    .footer__item--contact {
+        width: 23vw;
+    }
 }
 
 @media (max-width: 980px) {
@@ -19,16 +31,14 @@
         flex-wrap: wrap;
         display: flex;
         justify-content: space-around;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 85px;
+        padding-right: 85px;
     }
 
     .slider__item-box {
         width: 41vw;
     }
-}
 
-@media (max-width: 900px) {
     .slider__nav {
         max-width: 925px;
         width: 100%;
@@ -41,13 +51,12 @@
         margin-bottom: 25px;
         max-width: 100vw;
     }
-    .recent__item {
-        padding-left: 85px;
-        padding-right: 85px;
-    }
-
     .info__title::before {
         top: 0;
+    }
+
+    .footer__item--twitter {
+        width: 25vw;
     }
 }
 
@@ -59,17 +68,15 @@
     }
 
     .recent__item {
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .footer__item-about {
         width: 100%;
         padding-bottom: 15px;
     }
-}
 
-@media (max-width: 800px) {
     .header__menu-btn {
         display: block;
     }
@@ -109,13 +116,6 @@
         height: 0;
     }
 
-    .info__title {
-        font-size: 18px;
-    }
-    .recent__item {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
 }
 
 @media (max-width: 760px) {
@@ -125,9 +125,11 @@
     .recent__title {
         text-align: center;
     }
-}
 
-@media (max-width: 700px) {
+    .footer__item--about {
+        width: 100%;
+    }
+
     .recent__item {
         padding-left: 40px;
         padding-right: 40px;
@@ -145,19 +147,8 @@
         font-size: 20px;
     }
     .recent__item {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-}
-
-@media (max-width: 600px) {
-    .recent__item {
         padding-left: 0;
         padding-right: 0;
-    }
-
-    .slider__item-box {
-        right: 195px;
     }
 }
 
@@ -175,6 +166,14 @@
     }
     .slick-slide img {
         margin-left: 22px;
+    }
+
+    .footer__item--twitter {
+        width: 100%;
+    }
+
+    .footer__item--contact {
+        width: 100%;
     }
 }
 
